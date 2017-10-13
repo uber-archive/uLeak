@@ -3,7 +3,7 @@ uLeak
 
 A runtime leak detection library for Android.
 
-DEPRECATED: This is continued in `dropbox github here`.
+DEPRECATED: This is continued in https://github.com/behroozkhorashadi/uLeak
 
 License
 -------
