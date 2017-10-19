@@ -90,7 +90,7 @@ public class ActiveTrackerTest {
     RxJavaPlugins.setIoSchedulerHandler(new Function<Scheduler, Scheduler>() {
       @Override
       public Scheduler apply(Scheduler scheduler) throws Exception {
-        return scheduler;
+        return ActiveTrackerTest.this.scheduler;
       }
     });
     errorRelay = PublishSubject.create();
